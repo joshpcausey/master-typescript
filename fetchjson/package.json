@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "lib": [
+    "es2015"
+  ],
+  "dependencies": {
+    "axios": "^1.7.7",
+    "ts-node": "^10.9.2"
+  }
+}
