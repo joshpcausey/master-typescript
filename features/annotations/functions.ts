@@ -24,7 +24,6 @@ function divide(a: number, b: number): number {
     return a / b;
 }
 
-
 // Even on annonymous functions
 const multiply = function(a: number, b: number): number {
  return a * b;
@@ -47,7 +46,7 @@ const todaysForcast = {
     weather: 'sunny'
 }
 
-const logForecst = ({date, weather}: {date: Date; weather: string}): void => {
+const logForecast = ({date, weather}: {date: Date; weather: string}): void => {
     console.log(date)
     console.log(weather)
 }
@@ -57,4 +56,4 @@ const logWeather = ({ date, weather}) => {
     console.log(date, weather);
 }
 
-logForecst(todaysForcast);
+logForecast(todaysForcast);
