@@ -17,10 +17,10 @@ let nums: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let bools: boolean[] = [true, true, false];
 
 // Classes
-class Car {
+//class Car {
 
-}
-let car: Car = new Car();
+//}
+// let car: Car = new Car();
 
 // Object literal
 let point: { x: number; y: number} = {
